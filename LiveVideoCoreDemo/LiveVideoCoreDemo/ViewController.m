@@ -90,7 +90,7 @@
     
     [self UIInit];
     
-    _RtmpUrlTextField.text = @"rtmp://ossrs.net/live/123456";
+    _RtmpUrlTextField.text = @"rtmp://video-center.alivecdn.com/AppName/StreamName?vhost=www.anody.com.cn&auth_key=1539078765-0-0-d1bce14a34466a8ff0ee19e091622b25";
 }
 
 - (void)didReceiveMemoryWarning {

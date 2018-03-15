@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E7144A205A1842004B0C7E /* LiveShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E71448205A1842004B0C7E /* LiveShowViewController.m */; };
 		B73752F01CAA5630007FBCA0 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B73752ED1CAA5630007FBCA0 /* ASValuePopUpView.m */; };
 		B73752F11CAA5630007FBCA0 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B73752EF1CAA5630007FBCA0 /* ASValueTrackingSlider.m */; };
 		B73752F51CAA8688007FBCA0 /* ZJSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = B73752F41CAA8688007FBCA0 /* ZJSwitch.m */; };
@@ -18,7 +19,6 @@
 		B78280221C86C95E0057E507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B78280201C86C95E0057E507 /* LaunchScreen.storyboard */; };
 		B782802D1C86C95E0057E507 /* LiveVideoCoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B782802C1C86C95E0057E507 /* LiveVideoCoreDemoTests.m */; };
 		B78280381C86C95E0057E507 /* LiveVideoCoreDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78280371C86C95E0057E507 /* LiveVideoCoreDemoUITests.m */; };
-		B78280471C86CA160057E507 /* LiveShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B78280461C86CA160057E507 /* LiveShowViewController.m */; };
 		B78280521C86CD7B0057E507 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B78280511C86CD7B0057E507 /* libstdc++.tbd */; };
 		B78280541C86CD880057E507 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78280531C86CD880057E507 /* CoreGraphics.framework */; };
 		B78280561C86CD980057E507 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78280551C86CD980057E507 /* OpenGLES.framework */; };
@@ -50,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34E71448205A1842004B0C7E /* LiveShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveShowViewController.m; sourceTree = "<group>"; };
+		34E71449205A1842004B0C7E /* LiveShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveShowViewController.h; sourceTree = "<group>"; };
 		B73752EC1CAA5630007FBCA0 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
 		B73752ED1CAA5630007FBCA0 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
 		B73752EE1CAA5630007FBCA0 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
@@ -72,8 +74,6 @@
 		B78280331C86C95E0057E507 /* LiveVideoCoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveVideoCoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78280371C86C95E0057E507 /* LiveVideoCoreDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveVideoCoreDemoUITests.m; sourceTree = "<group>"; };
 		B78280391C86C95E0057E507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B78280451C86CA160057E507 /* LiveShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveShowViewController.h; sourceTree = "<group>"; };
-		B78280461C86CA160057E507 /* LiveShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveShowViewController.m; sourceTree = "<group>"; };
 		B78280481C86CCA40057E507 /* libLiveVideoCoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLiveVideoCoreSDK.a; path = "../../../../Library/Developer/Xcode/DerivedData/LiveVideoCoreSDK-gxantdyvmloibgfxrlhzbzneondw/Build/Products/Debug-iphoneos/libLiveVideoCoreSDK.a"; sourceTree = "<group>"; };
 		B78280511C86CD7B0057E507 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		B78280531C86CD880057E507 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,8 +175,8 @@
 				B78280161C86C95E0057E507 /* AppDelegate.m */,
 				B78280181C86C95E0057E507 /* ViewController.h */,
 				B78280191C86C95E0057E507 /* ViewController.m */,
-				B78280451C86CA160057E507 /* LiveShowViewController.h */,
-				B78280461C86CA160057E507 /* LiveShowViewController.m */,
+				34E71449205A1842004B0C7E /* LiveShowViewController.h */,
+				34E71448205A1842004B0C7E /* LiveShowViewController.m */,
 				B782801B1C86C95E0057E507 /* Main.storyboard */,
 				B782801E1C86C95E0057E507 /* Assets.xcassets */,
 				B78280201C86C95E0057E507 /* LaunchScreen.storyboard */,
@@ -307,6 +307,7 @@
 				TargetAttributes = {
 					B782800E1C86C95E0057E507 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = VKEL9TSY3J;
 					};
 					B78280271C86C95E0057E507 = {
 						CreatedOnToolsVersion = 7.2;
@@ -375,10 +376,10 @@
 				B782801A1C86C95E0057E507 /* ViewController.m in Sources */,
 				B78280171C86C95E0057E507 /* AppDelegate.m in Sources */,
 				B782806B1C86E7F90057E507 /* XMNShareScrollView.m in Sources */,
+				34E7144A205A1842004B0C7E /* LiveShowViewController.m in Sources */,
 				B73752F51CAA8688007FBCA0 /* ZJSwitch.m in Sources */,
 				B73752F01CAA5630007FBCA0 /* ASValuePopUpView.m in Sources */,
 				B78280141C86C95E0057E507 /* main.m in Sources */,
-				B78280471C86CA160057E507 /* LiveShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VKEL9TSY3J;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					../LiveVideoCoreSDK,
@@ -535,6 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VKEL9TSY3J;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					../LiveVideoCoreSDK,
