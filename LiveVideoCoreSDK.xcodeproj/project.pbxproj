@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34E7144F205A1A8C004B0C7E /* libRtmpLivePushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E7144E205A1A8C004B0C7E /* libRtmpLivePushSDK.a */; };
 		B7827FF31C8685AE0057E507 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7827FF21C8685AE0057E507 /* CoreVideo.framework */; };
 		B7827FF51C8685BC0057E507 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7827FF41C8685BC0057E507 /* VideoToolbox.framework */; };
 		B7827FF71C8685C90057E507 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7827FF61C8685C90057E507 /* OpenGLES.framework */; };
@@ -16,7 +17,6 @@
 		B7827FFF1C8685FA0057E507 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7827FFE1C8685FA0057E507 /* CFNetwork.framework */; };
 		B78280011C8686070057E507 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78280001C8686070057E507 /* AudioToolbox.framework */; };
 		B78280031C86861A0057E507 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B78280021C86861A0057E507 /* AVFoundation.framework */; };
-		B7BBA85A1CA3D6FF00D05AEF /* libRtmpLivePushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BBA8591CA3D6FF00D05AEF /* libRtmpLivePushSDK.a */; };
 		B7CE54411C867E0E00437FF2 /* LiveVideoCoreSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7CE54401C867E0E00437FF2 /* LiveVideoCoreSDK.h */; };
 		B7CE54431C867E0E00437FF2 /* LiveVideoCoreSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CE54421C867E0E00437FF2 /* LiveVideoCoreSDK.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34E7144E205A1A8C004B0C7E /* libRtmpLivePushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRtmpLivePushSDK.a; sourceTree = "<group>"; };
 		B7827FF21C8685AE0057E507 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		B7827FF41C8685BC0057E507 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		B7827FF61C8685C90057E507 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -44,7 +45,6 @@
 		B7827FFE1C8685FA0057E507 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B78280001C8686070057E507 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B78280021C86861A0057E507 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B7BBA8591CA3D6FF00D05AEF /* libRtmpLivePushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRtmpLivePushSDK.a; path = "../../../Library/Developer/Xcode/DerivedData/LiveVideoCoreSDK-eaoztpuspaivptbkhvageukafdry/Build/Products/Debug-iphoneos/libRtmpLivePushSDK.a"; sourceTree = "<group>"; };
 		B7CE543D1C867E0E00437FF2 /* libLiveVideoCoreSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLiveVideoCoreSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CE54401C867E0E00437FF2 /* LiveVideoCoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveVideoCoreSDK.h; sourceTree = "<group>"; };
 		B7CE54421C867E0E00437FF2 /* LiveVideoCoreSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveVideoCoreSDK.m; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7BBA85A1CA3D6FF00D05AEF /* libRtmpLivePushSDK.a in Frameworks */,
+				34E7144F205A1A8C004B0C7E /* libRtmpLivePushSDK.a in Frameworks */,
 				B78280031C86861A0057E507 /* AVFoundation.framework in Frameworks */,
 				B78280011C8686070057E507 /* AudioToolbox.framework in Frameworks */,
 				B7827FFF1C8685FA0057E507 /* CFNetwork.framework in Frameworks */,
@@ -100,7 +100,7 @@
 		D99D2EB03AFBAA9009BC5FAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7BBA8591CA3D6FF00D05AEF /* libRtmpLivePushSDK.a */,
+				34E7144E205A1A8C004B0C7E /* libRtmpLivePushSDK.a */,
 				B78280021C86861A0057E507 /* AVFoundation.framework */,
 				B78280001C8686070057E507 /* AudioToolbox.framework */,
 				B7827FFE1C8685FA0057E507 /* CFNetwork.framework */,
@@ -140,7 +140,7 @@
 		B7CE54351C867E0E00437FF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.Alex;
 				TargetAttributes = {
 					B7CE543C1C867E0E00437FF2 = {
@@ -185,13 +185,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -217,6 +225,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7s";
 			};
 			name = Debug;
 		};
@@ -228,13 +237,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -254,6 +271,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s";
 			};
 			name = Release;
 		};
@@ -279,6 +297,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/VideoCore",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/UriParser-cpp",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +327,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/VideoCore",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/UriParser-cpp",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
